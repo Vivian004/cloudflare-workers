@@ -3,7 +3,10 @@ addEventListener('fetch', (event) => {
 })
 const links = [
   { name: 'Linkedin', url: 'https://www.linkedin.com/in/jingxian-du/' },
-  { name: 'Github', url: 'https://github.com/Vivian004/' },
+  {
+    name: 'Github Repo',
+    url: 'https://github.com/Vivian004/cloudflare-workers',
+  },
   {
     name: 'Email Me',
     url: 'mailto:dujingxian@outlook.com?Subject=Hello%20Jingxian',
